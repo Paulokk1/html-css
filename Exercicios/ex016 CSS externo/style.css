@@ -1,0 +1,21 @@
+@charset "UTF-8";
+    * {
+        
+
+    }
+    body {
+        background-image: linear-gradient(45deg, #070100, #002B01, #171725);
+    font-size: 25px;
+    color: aqua;
+    background-attachment: fixed;
+    }  
+h1 {
+    color: chartreuse;
+    background-image: linear-gradient(to right, #DC143C, #8b0000);
+}
+h2 {
+    color: #8b0000;
+}
+p {
+    text-align: center;
+}

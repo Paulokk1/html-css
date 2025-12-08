@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* { height: auto;}
+
+body {
+    background-image: linear-gradient(to top, #2E2E4A, #16181F);
+}
+h1 { color: white;
+    border-style: groove;
+    border-color: black;
+    margin-right: 600px;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    box-shadow: 3px 3px 8px white;
+    border-radius: 13px;
+}
+p {
+    color: #968D9B;
+
+}
+div > img {
+    display: none;
+    
+}
+div:hover > img {
+    display: block;
+}
+div > p {
+    color: #8C6245;
+
+}
+ul {
+    color: #6F7B89;
+
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    font-family: fantasy;
+    background-image: linear-gradient(to right, #212226, #666A73);
+    text-align: center;
+
+}
+main {
+    background-color: #3a435cd0;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px #3C3D40;
+    text-shadow: 6px 6px 5px #3C3D40;
+
+
+}
+h1 {
+
+}

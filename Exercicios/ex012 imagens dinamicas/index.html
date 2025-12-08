@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Por favor abra este site em varios dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/ima-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/ima-m.png" type="image/png">
+        <!---esta porra esta funcionando eu espero-->
+
+        <img src="imagens/ima-g.png" alt="Imagem flexivel">
+    </picture>
+
+<h1>Colocando audio no meu Pau</h1>
+
+    <!---MP3 WAV OGG-->
+    <audio preload="metadata" controls>
+    <source src="midia/seq-repete-arana.mp3" type="audio/mpeg">
+    <source src="midia/seq-repete-arana.wav" type="audio/wav">
+    <source src="midia/seq-repete-arana.ogg" type="audio/ogg">
+    <p>Seu naveador não consegue ouvir áudio. <br> <a href="midia/seq-repete-arana.mp3" download="seq-repete-arana.mp3" type="audio/mpeg">Clique aqui</a> para Baixar o Audio</p>
+<!--autoplay a musica começara automaticamente
+loop assim que chegar no final recomeçara
+controls aparece um cotrole para dar play
+-->
+    </audio>
+
+    
+    
+</body>
+</html>
