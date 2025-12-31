@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+
+main > h1::after {
+    content: "Foi feito aqui ó https://github.com/Paulokk1";
+    display: block;   /* isso força ficar embaixo */
+    margin-top: 8px;  /* espaço entre a box e o texto */
+    font-size: 10px;
+
+}
+
+menu > p {
+    display: none;
+}
