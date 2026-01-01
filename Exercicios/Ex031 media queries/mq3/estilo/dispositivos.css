@@ -2,6 +2,53 @@
 
 
 
-@media screen {
+@media screen and (min-width: 768px)  {
+    body {
+        background-image: url(../imgs/back-tablet.jpg);
+#pho {display: none;}    
+#tab {display: block;}
+#pc {display: none;}
+#tv {display: none;}
+#ico {display: none;}
+#pri {display: none;}
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-image: url(../imgs/back-pc.jpg);
+
+#pho {display: none;}
+#tab {display: none;}
+#pc {display: block;}
+#tv {display: none;}
+#ico {display: none;}
+#pri {display: none;}
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+            background-image: url(../imgs/back-tv.jpg);
+
+#pho {display: none;}
+#tab {display: none;}
+#pc {display: none;}
+#tv {display: block;}
+#ico {display: none;}
+#pri {display: none;}
+        }
+}
+
+@media print {
+    body {
+#pho {display: none;}
+#tab {display: none;}
+#pc {display: none;}
+#tv {display: none;}
+#ico {display: none;}
+#pri {display: block;}
+
+    }
     
 }

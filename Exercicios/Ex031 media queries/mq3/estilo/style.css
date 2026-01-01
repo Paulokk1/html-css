@@ -38,3 +38,8 @@ main {
 #tv {display: none;}
 #ico {display: none;}
 #pri {display: none;}
+
+body {
+    background-image: url(../imgs/back-phone.jpg);
+
+}
