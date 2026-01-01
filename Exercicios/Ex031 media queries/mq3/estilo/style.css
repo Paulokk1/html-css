@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+body {
+    background-image: url(../imgs/back-phone.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+main > h1 {
+    font-size: larger;
+    color: azure;
+}
+
+img {
+    margin: auto;
+
+}
+
+main {
+    background-color: rgba(105, 95, 95, 0.726);
+    width: 90%;
+    border-radius: 13px;
+    margin: auto;
+}
+
+#pho {display: block;}
+#tab {display: none;}
+#pc {display: none;}
+#tv {display: none;}
+#ico {display: none;}
+#pri {display: none;}
