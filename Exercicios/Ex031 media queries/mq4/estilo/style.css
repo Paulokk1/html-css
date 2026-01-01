@@ -65,3 +65,23 @@ menu {
     display: none;
 }
 
+
+@media (min-width: 768px ) {
+    main {
+        width: 60%;
+
+    }
+    #bur {
+        display: none;
+
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+    menu > ul {
+        display: flex;
+    }
+}
